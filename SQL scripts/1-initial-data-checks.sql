@@ -25,6 +25,26 @@ GROUP BY id
 HAVING   COUNT(*) > 1;
 
 
+SELECT COUNT(DISTINCT id)
+FROM   customers;
+
+-- returns - 74904
+
+
+SELECT COUNT(DISTINCT customer_id)
+FROM   orders;
+
+-- returns 74904 too
+-- confirming that there are "NO" customer_ids in the orders table that ARE NOT in the customers table
+
+
+SELECT COUNT(*) as unmatched_orders
+FROM   orders o LEFT JOIN customers c ON o.customer_id = c.id
+WHERE  c.id IS NULL;
+
+-- confirming just one more time - this should and does return 0
+
+
 
 
 -- 3) Checking Distinct Product Names, Purchase Platforms, Countries & Regions, Marketing Platforms, and Loyalty Designation For Familiarity And Finding Irregularities 
@@ -86,7 +106,6 @@ FROM   customers;
 
 
 
-
 -- 5) Price Ranges
 
 SELECT MIN(usd_price) as smallest_price, MAX(usd_price) as largest_price
@@ -97,5 +116,3 @@ SELECT   COUNT(*) as count_of_orders
 FROM     orders
 WHERE    usd_price = 0
 GROUP BY usd_price;
-
-
