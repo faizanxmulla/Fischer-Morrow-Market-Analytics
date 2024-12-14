@@ -3,7 +3,7 @@
 
 **Table of Contents**
 
-- [Project Background](project-background)
+- [Project Background](#project-background)
   
 - [Data Structure and Initial Checks](#data-structure--initial-checks)
   
