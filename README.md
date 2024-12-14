@@ -1,6 +1,32 @@
 # Fischer Morrow Market Analytics
 
 
+**Table of Contents**
+
+- [Project Background](project-background)
+  
+- [Data Structure and Initial Checks](#data-structure--initial-checks)
+  
+- [Executive Summary](#executive-summary)
+  
+- [Insights Into](#insights-into)
+  
+  - [Sales Trends](#sales-trends)
+    
+  - [Product Performance](#product-performance)
+    
+  - [Loyalty Program](#loyalty-program)
+    
+  - [Regional Comparisons](#regional-comparisons)
+    
+- [Recommendations](#recommendations)
+  
+- [Key Questions for Stakeholders Prior to Project Advancement](#key-questions-for-stakeholders-prior-to-project-advancement)
+  
+- [Assumptions and Caveats](#assumptions-and-caveats)
+
+
+
 ## Project Background
 
 Fischer Morrow Electronics, established in 2019, is a global e-commerce company that sells popular electronic products worldwide via its website and mobile app.
@@ -27,7 +53,7 @@ Insights and recommendations are provided on the following key areas:
 
 **Data Cleaning & Preparation:** [SQL script](https://github.com/faizanxmulla/Fischer-Morrow-Market-Analytics/blob/main/SQL%20scripts/2-data-cleaning.sql)
 
-**Business Analysis Questions**: [SQL script]([https://chatgpt.com/c/675a9eb4-8468-8005-adba-f1c4124549d3#](https://github.com/faizanxmulla/Fischer-Morrow-Market-Analytics/blob/main/SQL%20scripts/3-business-questions.sql))
+**Business Analysis Questions**: [SQL script](https://github.com/faizanxmulla/Fischer-Morrow-Market-Analytics/blob/main/SQL%20scripts/3-business-questions.sql)
 
 </aside>
 
